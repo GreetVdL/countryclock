@@ -56,7 +56,8 @@ html {
   // color: $geel;
   h1,
   select {
-    padding-bottom: 25px;
+    // padding-bottom: 25px;
+    margin-bottom: 25px;
   }
 }
 
@@ -75,17 +76,17 @@ select {
     font-size: 10rem;
     font-family: monospace;
     text-transform: uppercase;
-    // font-family: "Digital" !important;
-    // background-color: $dark !important;
-    // color: $green !important;
+    font-family: "Digital";
+    background-color: $dark;
+    color: $green;
   }
 }
 
 // clock styles
 
 .clock {
-  width: 530px;
-  text-align: left;
+  // width: 530px;
+  // text-align: left;
 }
 
 //  responsive styles
@@ -100,9 +101,6 @@ select {
       font-size: 7rem;
     }
   }
-  .clock {
-    width: 380px;
-  }
 }
 
 @media screen and (max-width: 926px) {
@@ -114,9 +112,6 @@ select {
     option {
       font-size: 5rem;
     }
-  }
-  .clock {
-    width: 290px;
   }
 }
 
@@ -130,9 +125,6 @@ select {
       height: 10rem;
     }
   }
-  .clock {
-    width: 332px;
-  }
 }
 
 @media screen and (max-width: 418px) {
@@ -144,8 +136,5 @@ select {
     option {
       font-size: 4rem;
     }
-  }
-  .clock {
-    width: 260px;
   }
 }
