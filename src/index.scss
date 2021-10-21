@@ -39,7 +39,7 @@ html {
   }
 }
 
-//  root stylesheet
+//  root styles
 
 #root {
   min-height: 100vh;
@@ -53,13 +53,14 @@ html {
 
 .header {
   display: flex;
+  // color: $geel;
   h1,
   select {
     padding-bottom: 25px;
   }
 }
 
-// country chooser stylesheet
+// country chooser styles
 
 select {
   display: block;
@@ -68,6 +69,7 @@ select {
   font-family: "Digital";
   background-color: $dark;
   color: $green;
+
   border: none;
   option {
     font-size: 10rem;
@@ -82,13 +84,13 @@ select {
 // clock styles
 
 .clock {
-  width: 370px;
+  width: 530px;
   text-align: left;
 }
 
 //  responsive styles
 
-@media screen and (max-width: 1182px) {
+@media screen and (max-width: 1251px) {
   #root {
     font-size: 10rem;
   }
@@ -99,7 +101,7 @@ select {
     }
   }
   .clock {
-    width: 275px;
+    width: 380px;
   }
 }
 
@@ -114,7 +116,7 @@ select {
     }
   }
   .clock {
-    width: 230px;
+    width: 290px;
   }
 }
 
@@ -129,7 +131,7 @@ select {
     }
   }
   .clock {
-    width: 175px;
+    width: 332px;
   }
 }
 
@@ -142,5 +144,8 @@ select {
     option {
       font-size: 4rem;
     }
+  }
+  .clock {
+    width: 260px;
   }
 }

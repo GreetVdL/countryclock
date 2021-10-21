@@ -2,8 +2,6 @@ import React from "react";
 
 class Country extends React.Component {
   handleChange = (event) => {
-    // console.log(event.target.value);
-    console.log(this.props);
     this.props.updateStateCountry(event.target.value);
   };
 
