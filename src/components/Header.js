@@ -1,6 +1,15 @@
+import React from "react";
+import Country from "./Country";
+
 class Header extends React.Component {
   render() {
-    return <h1>Hello React!</h1>;
+    return (
+      <div className="header">
+        <h1>The time in&nbsp;</h1>
+        <Country />
+        <h1>&nbsp;is</h1>
+      </div>
+    );
   }
 }
 
