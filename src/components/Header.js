@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <div className="header">
         <h1>The time in&nbsp;</h1>
-        <Country />
+        <Country updateStateCountry={this.props.updateStateCountry} />
         <h1>&nbsp;is</h1>
       </div>
     );
